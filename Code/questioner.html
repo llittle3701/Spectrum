@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Spectrum Educational tool
+
+</title>
+<link rel="stylesheet" href="http://www.auburn.edu/template/styles/sidebar.css" media="screen" type="text/css" />
+<!--#include virtual="/template/includes/head.html" -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" href="./files/colorbox.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript">
+function setupVideo() {
+ var v = document.getElementById("media");
+if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPad/i))) {
+    v.setAttribute("src", "./videos/questioner.m4v");
+}
+else 
+
+{
+v.setAttribute("src", "./videos/questioner.mp4");
+v.setAttribute("src", "./videos/questioner.ogv");
+}
+}
+</script>
+
+</head>
+<body onload="setupVideo();">
+<div id="pageWrap"> 
+  <div id="headerWrap">
+    <div id="header">
+      <div id="logo">
+      <a href="http://www.auburn.edu/"><img src="./files/headerLogo.png" alt="Auburn University Homepage"></a>
+      	
+      </div>
+      <div id="headerTitle">
+        <div class="titleArea">
+        	<span class="mainHeading"><!-- TemplateBeginEditable name="unitTitle" -->Spectrum Educational Tool<!-- TemplateEndEditable --></span>
+          <span class="subHeading"><!-- TemplateBeginEditable name="unitSubTitle" -->an online resource training for student 
+			teachers<!-- TemplateEndEditable --></span>
+        </div>
+      </div>
+    </div>
+		<table class="nav">
+      <td width="800"></td>
+            <td style="text-align:right;font-size:14px;"><a href="logout.php">Logout</a></td>
+
+
+    </table>
+  </div>
+  <div id="contentArea">
+    <div class="contentDivision"> 
+      <p class="breadcrumb"> <!-- TemplateBeginEditable name="breadcrumb" --> <a href="./loginHome.html">Home </a>  &gt; 
+      Additional case studies <!-- TemplateEndEditable --> </p>
+			<!-- TemplateBeginEditable name="body" -->
+     
+ <h3><strong>Questioner </strong></h3>
+   <br>
+
+<video id="media" style="float:right;" controls="controls" height="300" width="350" style="margin: 0px 5px  0px 5px;" >
+    
+</video>
+
+<p>Michelle is a middle school teacher and teaching solar system to her students. Tom is a student in her class and asks many questions to Michelle.
+These students can be a disaster to classroom management. Explain the student that we have to handle these questions one on one later. </p>
+
+   
+    </div>
+    <div class="sidebar"> <!-- TemplateBeginEditable name="sidebar" -->
+       <a class="upLink" href="./loginHome.html" target="_self" title="Home">Upto Additional case studies</a>      <br />
+        <a href="./apathetic.html" target="_self" title="Apathetic student">Apathetic student</a>
+     
+         <a href="./defiant.html" target="_self" title="Defiant student">Defiant student</a>
+<a href="./questioner.html" target="_self" title="Questioner">Questioner</a>
+<a href="./nostalgic.html" target="_self" title="Nostalgic student">Nostalgic student</a>
+<a href="./stalker.html" target="_self" title="Your personal stalker">Your personal stalker</a>
+<a href="./inappropriate.html" target="_self" title="Inappropriate comment or Email">Inappropriate comment or Email</a>
+       
+      </div>
+  </div>
+  <div id="contentArea_bottom"></div>
+  <div id="footerWrap">
+    <div id="footer">
+    
+    </div>  
+    <div id="subfooter">
+      Auburn University | Auburn, Alabama 36849 | (334) 844-4000  | <script type="text/javascript">emailE='auburn.edu'; emailE=('YourEmailAddress' + '@' + emailE); document.write("<a href='mailto:" + emailE + "'>" + emailE + "</a>");</script>
+      <br />
+      <a href="https://fp.auburn.edu/ocm/auweb_survey">Website Feedback</a> | <a href="http://www.auburn.edu/privacy">Privacy</a> | <a href="http://www.auburn.edu/oit/it_policies/copyright_regulations.php">Copyright &copy; 
+      <script type="text/javascript">date = new Date(); document.write(date.getFullYear());</script></a>
+    </div>
+  </div>
+  <!--#include virtual="/template/includes/gatc.html" --> 
+</div>
+</body>
+</html>
